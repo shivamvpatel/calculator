@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(28, 28, 28);
+}
+
+.display {
+    color: white;
+    height: 135px;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+    margin-right: 50px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.calculator {
+    border: .75px solid rgb(152, 152, 152);
+    height: 550px;
+    width: 350px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 5px;
+    flex-grow: 1;
+}
+
+.button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #505050;
+    color: white;
+    border: none;
+    font-size: 30px;
+    transition: border 0.2s ease-out;
+}
+
+.button.active {
+    border: 2px solid white;
+    transition: border 0s;
+}
+
+.operator {
+    background-color: #FF9500;
+}
+
+.ac {
+    background-color: #a2a2a2;
+}
+
+.plusMinus {
+    background-color: #a2a2a2;
+}
+
+.percent {
+    background-color: #a2a2a2;
+}
+
+.backspace {
+    background-color: #a2a2a2;
+}
+
+.decimal {
+    background-color: #a2a2a2;
+}
